@@ -54,19 +54,23 @@
 		{
 			"name": "Keiji Yoshimi",
 			"url": "https://github.com/walf443"
-		}
+		},
+		{
+			"name": "Andrey Ryabov",
+			"url": "https://github.com/andreyryabov"
+		}		
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/msgpack/msgpack-node.git"
+		"url": "https://github.com/andreyryabov/node-msgpack.git"
 	},
 	"main": "./lib/msgpack",
 	"directories": {
 		"lib": "lib"
 	},
-  "devDependencies": {
-    "nodeunit" : "https://github.com/godsflaw/nodeunit/archive/master.tar.gz"
-  },
+    "devDependencies": {
+        "nodeunit" : "https://github.com/godsflaw/nodeunit/archive/master.tar.gz"
+    },
 	"engines": {
 		"node": ">=0.8.x"
 	},
